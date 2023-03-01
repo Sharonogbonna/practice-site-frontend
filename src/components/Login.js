@@ -6,7 +6,7 @@ function Login() {
     const [loginPassword, setLoginPassword] = useState("")
     const login = () => {
         axios({
-            method: "post", 
+            method: "POST", 
             data: {
                 username: loginUsername,
                 password: loginPassword
